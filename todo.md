@@ -8,8 +8,8 @@ Sistema para que doctores gestionen:
 - Consultas realizadas
 - Historial médico de cada paciente por consulta
 
-👉 MVP enfocado en un doctor individual con sus propios pacientes.  
-👉 MySQL 8 como base de datos.  
+👉 MVP enfocado en un doctor individual con sus propios pacientes.
+👉 MySQL 8 como base de datos.
 👉 Laravel 11 + Sanctum + REST API + opcional Filament para admin panel.
 
 ---
@@ -124,10 +124,10 @@ Sistema para que doctores gestionen:
 
 ## 🧠 **Flujo básico del sistema**
 
-1️⃣ Doctor se registra y se loguea → obtiene token  
-2️⃣ Crea sus pacientes  
-3️⃣ Registra una consulta para un paciente  
-4️⃣ En la consulta carga el historial médico  
+1️⃣ Doctor se registra y se loguea → obtiene token
+2️⃣ Crea sus pacientes
+3️⃣ Registra una consulta para un paciente
+4️⃣ En la consulta carga el historial médico
 5️⃣ Listados / búsquedas / filtros: por paciente, por fecha, por tipo
 
 ---
