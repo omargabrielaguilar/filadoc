@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +18,12 @@ class TalkFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'user_id' => User::factory(),
+            'title' => fake()->title(),
+            'type' => fake()->randomElement(),
+            'length' => rand(15, 60),
+            'abstract' => fake()->paragraph(),
+            'organizer_notes' => fake()->paragraph(),
         ];
     }
 }
